@@ -15,9 +15,12 @@ we first hook eglCreateContext, eglSwapBuffers and eglGetDisplay
 then we set the original function addresses using hook_set_orig().
 
 # building
-
+~~~
 cmake .
 make
+~~~
 
 # testing
+~~~
 ./bin/gluey /usr/bin/glmark2-es2
+~~~
