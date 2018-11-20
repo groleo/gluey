@@ -16,11 +16,13 @@ then we set the original function addresses using hook_set_orig().
 
 # building
 ~~~
-cmake .
+mkdir __build ; cd __build
+cmake ..
 make
+cd -
 ~~~
 
 # testing
 ~~~
-./bin/gluey /usr/bin/glmark2-es2
+__build/bin/gluey `which glmark2-es2`
 ~~~
