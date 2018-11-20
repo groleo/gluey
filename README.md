@@ -26,3 +26,9 @@ cd -
 ~~~
 __build/bin/gluey `which glmark2-es2`
 ~~~
+
+# regenerate headers
+~~~
+cd __build
+make gen
+cd -

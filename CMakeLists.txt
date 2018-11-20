@@ -18,7 +18,6 @@ set(CMAKE_CXX_FLAGS "-g -fPIC -Wall -Werror -std=c++11" )
 set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,--no-undefined")
 set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -fPIC -Wl,--no-undefined")
 
-find_package(PythonInterp)
 
 add_library(Hook SHARED
 	src/hooks/gl/gl_init.cpp
@@ -27,3 +26,4 @@ add_library(Hook SHARED
 target_link_libraries(Hook ${CMAKE_DL_LIBS})
 
 add_executable(gluey src/gluey.cpp)
+add_subdirectory(gen)
