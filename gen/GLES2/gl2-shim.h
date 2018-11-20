@@ -13,7 +13,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glActiveTexture (GLenum texture)
                     ,glActiveTexture
                     ,texture
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -23,7 +22,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glAttachShader (GLuint program,GLuint shader
                     ,glAttachShader
                     ,program,shader
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -33,7 +31,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glBindAttribLocation (GLuint program,GLuint 
                     ,glBindAttribLocation
                     ,program,index,name
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -43,7 +40,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glBindBuffer (GLenum target,GLuint buffer)
                     ,glBindBuffer
                     ,target,buffer
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -53,7 +49,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glBindFramebuffer (GLenum target,GLuint fram
                     ,glBindFramebuffer
                     ,target,framebuffer
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -63,7 +58,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glBindRenderbuffer (GLenum target,GLuint ren
                     ,glBindRenderbuffer
                     ,target,renderbuffer
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -73,7 +67,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glBindTexture (GLenum target,GLuint texture)
                     ,glBindTexture
                     ,target,texture
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -83,7 +76,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glBlendColor (GLfloat red,GLfloat green,GLfl
                     ,glBlendColor
                     ,red,green,blue,alpha
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -93,7 +85,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glBlendEquation (GLenum mode)
                     ,glBlendEquation
                     ,mode
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -103,7 +94,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glBlendEquationSeparate (GLenum modeRGB,GLen
                     ,glBlendEquationSeparate
                     ,modeRGB,modeAlpha
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -113,7 +103,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glBlendFunc (GLenum sfactor,GLenum dfactor)
                     ,glBlendFunc
                     ,sfactor,dfactor
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -123,7 +112,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glBlendFuncSeparate (GLenum sfactorRGB,GLenu
                     ,glBlendFuncSeparate
                     ,sfactorRGB,dfactorRGB,sfactorAlpha,dfactorAlpha
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -133,7 +121,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glBufferData (GLenum target,GLsizeiptr size,
                     ,glBufferData
                     ,target,size,data,usage
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -143,7 +130,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glBufferSubData (GLenum target,GLintptr offs
                     ,glBufferSubData
                     ,target,offset,size,data
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -154,7 +140,6 @@ GLUEY_APICALL  GLenum GLUEY_APIENTRY  glCheckFramebufferStatus (GLenum target)
                     ,glCheckFramebufferStatus
                     ,target
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -165,7 +150,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glClear (GLbitfield mask)
                     ,glClear
                     ,mask
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -175,7 +159,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glClearColor (GLfloat red,GLfloat green,GLfl
                     ,glClearColor
                     ,red,green,blue,alpha
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -185,7 +168,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glClearDepthf (GLfloat d)
                     ,glClearDepthf
                     ,d
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -195,7 +177,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glClearStencil (GLint s)
                     ,glClearStencil
                     ,s
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -205,7 +186,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glColorMask (GLboolean red,GLboolean green,G
                     ,glColorMask
                     ,red,green,blue,alpha
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -215,7 +195,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glCompileShader (GLuint shader)
                     ,glCompileShader
                     ,shader
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -225,7 +204,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glCompressedTexImage2D (GLenum target,GLint 
                     ,glCompressedTexImage2D
                     ,target,level,internalformat,width,height,border,imageSize,data
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -235,7 +213,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glCompressedTexSubImage2D (GLenum target,GLi
                     ,glCompressedTexSubImage2D
                     ,target,level,xoffset,yoffset,width,height,format,imageSize,data
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -245,7 +222,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glCopyTexImage2D (GLenum target,GLint level,
                     ,glCopyTexImage2D
                     ,target,level,internalformat,x,y,width,height,border
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -255,7 +231,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glCopyTexSubImage2D (GLenum target,GLint lev
                     ,glCopyTexSubImage2D
                     ,target,level,xoffset,yoffset,x,y,width,height
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -265,7 +240,6 @@ GLUEY_APICALL  GLuint GLUEY_APIENTRY  glCreateProgram ()
     hook_invoke_from(g_libCtx, SPU_TYPE_SHIM
                     ,glCreateProgram
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -277,7 +251,6 @@ GLUEY_APICALL  GLuint GLUEY_APIENTRY  glCreateShader (GLenum type)
                     ,glCreateShader
                     ,type
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -288,7 +261,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glCullFace (GLenum mode)
                     ,glCullFace
                     ,mode
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -298,7 +270,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glDeleteBuffers (GLsizei n,const GLuint *buf
                     ,glDeleteBuffers
                     ,n,buffers
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -308,7 +279,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glDeleteFramebuffers (GLsizei n,const GLuint
                     ,glDeleteFramebuffers
                     ,n,framebuffers
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -318,7 +288,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glDeleteProgram (GLuint program)
                     ,glDeleteProgram
                     ,program
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -328,7 +297,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glDeleteRenderbuffers (GLsizei n,const GLuin
                     ,glDeleteRenderbuffers
                     ,n,renderbuffers
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -338,7 +306,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glDeleteShader (GLuint shader)
                     ,glDeleteShader
                     ,shader
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -348,7 +315,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glDeleteTextures (GLsizei n,const GLuint *te
                     ,glDeleteTextures
                     ,n,textures
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -358,7 +324,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glDepthFunc (GLenum func)
                     ,glDepthFunc
                     ,func
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -368,7 +333,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glDepthMask (GLboolean flag)
                     ,glDepthMask
                     ,flag
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -378,7 +342,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glDepthRangef (GLfloat n,GLfloat f)
                     ,glDepthRangef
                     ,n,f
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -388,7 +351,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glDetachShader (GLuint program,GLuint shader
                     ,glDetachShader
                     ,program,shader
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -398,7 +360,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glDisable (GLenum cap)
                     ,glDisable
                     ,cap
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -408,7 +369,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glDisableVertexAttribArray (GLuint index)
                     ,glDisableVertexAttribArray
                     ,index
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -418,7 +378,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glDrawArrays (GLenum mode,GLint first,GLsize
                     ,glDrawArrays
                     ,mode,first,count
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -428,7 +387,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glDrawElements (GLenum mode,GLsizei count,GL
                     ,glDrawElements
                     ,mode,count,type,indices
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -438,7 +396,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glEnable (GLenum cap)
                     ,glEnable
                     ,cap
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -448,7 +405,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glEnableVertexAttribArray (GLuint index)
                     ,glEnableVertexAttribArray
                     ,index
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -457,7 +413,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glFinish ()
     hook_invoke_from(g_libCtx, SPU_TYPE_SHIM
                     ,glFinish
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -466,7 +421,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glFlush ()
     hook_invoke_from(g_libCtx, SPU_TYPE_SHIM
                     ,glFlush
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -476,7 +430,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glFramebufferRenderbuffer (GLenum target,GLe
                     ,glFramebufferRenderbuffer
                     ,target,attachment,renderbuffertarget,renderbuffer
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -486,7 +439,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glFramebufferTexture2D (GLenum target,GLenum
                     ,glFramebufferTexture2D
                     ,target,attachment,textarget,texture,level
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -496,7 +448,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glFrontFace (GLenum mode)
                     ,glFrontFace
                     ,mode
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -506,7 +457,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glGenBuffers (GLsizei n,GLuint *buffers)
                     ,glGenBuffers
                     ,n,buffers
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -516,7 +466,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glGenerateMipmap (GLenum target)
                     ,glGenerateMipmap
                     ,target
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -526,7 +475,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glGenFramebuffers (GLsizei n,GLuint *framebu
                     ,glGenFramebuffers
                     ,n,framebuffers
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -536,7 +484,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glGenRenderbuffers (GLsizei n,GLuint *render
                     ,glGenRenderbuffers
                     ,n,renderbuffers
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -546,7 +493,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glGenTextures (GLsizei n,GLuint *textures)
                     ,glGenTextures
                     ,n,textures
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -556,7 +502,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glGetActiveAttrib (GLuint program,GLuint ind
                     ,glGetActiveAttrib
                     ,program,index,bufSize,length,size,type,name
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -566,7 +511,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glGetActiveUniform (GLuint program,GLuint in
                     ,glGetActiveUniform
                     ,program,index,bufSize,length,size,type,name
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -576,7 +520,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glGetAttachedShaders (GLuint program,GLsizei
                     ,glGetAttachedShaders
                     ,program,maxCount,count,shaders
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -587,7 +530,6 @@ GLUEY_APICALL  GLint GLUEY_APIENTRY  glGetAttribLocation (GLuint program,const G
                     ,glGetAttribLocation
                     ,program,name
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -598,7 +540,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glGetBooleanv (GLenum pname,GLboolean *data)
                     ,glGetBooleanv
                     ,pname,data
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -608,7 +549,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glGetBufferParameteriv (GLenum target,GLenum
                     ,glGetBufferParameteriv
                     ,target,pname,params
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -618,7 +558,6 @@ GLUEY_APICALL  GLenum GLUEY_APIENTRY  glGetError ()
     hook_invoke_from(g_libCtx, SPU_TYPE_SHIM
                     ,glGetError
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -629,7 +568,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glGetFloatv (GLenum pname,GLfloat *data)
                     ,glGetFloatv
                     ,pname,data
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -639,7 +577,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glGetFramebufferAttachmentParameteriv (GLenu
                     ,glGetFramebufferAttachmentParameteriv
                     ,target,attachment,pname,params
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -649,7 +586,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glGetIntegerv (GLenum pname,GLint *data)
                     ,glGetIntegerv
                     ,pname,data
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -659,7 +595,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glGetProgramiv (GLuint program,GLenum pname,
                     ,glGetProgramiv
                     ,program,pname,params
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -669,7 +604,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glGetProgramInfoLog (GLuint program,GLsizei 
                     ,glGetProgramInfoLog
                     ,program,bufSize,length,infoLog
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -679,7 +613,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glGetRenderbufferParameteriv (GLenum target,
                     ,glGetRenderbufferParameteriv
                     ,target,pname,params
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -689,7 +622,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glGetShaderiv (GLuint shader,GLenum pname,GL
                     ,glGetShaderiv
                     ,shader,pname,params
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -699,7 +631,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glGetShaderInfoLog (GLuint shader,GLsizei bu
                     ,glGetShaderInfoLog
                     ,shader,bufSize,length,infoLog
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -709,7 +640,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glGetShaderPrecisionFormat (GLenum shadertyp
                     ,glGetShaderPrecisionFormat
                     ,shadertype,precisiontype,range,precision
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -719,7 +649,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glGetShaderSource (GLuint shader,GLsizei buf
                     ,glGetShaderSource
                     ,shader,bufSize,length,source
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -730,7 +659,6 @@ GLUEY_APICALL  const GLubyte* GLUEY_APIENTRY  glGetString (GLenum name)
                     ,glGetString
                     ,name
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -741,7 +669,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glGetTexParameterfv (GLenum target,GLenum pn
                     ,glGetTexParameterfv
                     ,target,pname,params
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -751,7 +678,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glGetTexParameteriv (GLenum target,GLenum pn
                     ,glGetTexParameteriv
                     ,target,pname,params
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -761,7 +687,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glGetUniformfv (GLuint program,GLint locatio
                     ,glGetUniformfv
                     ,program,location,params
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -771,7 +696,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glGetUniformiv (GLuint program,GLint locatio
                     ,glGetUniformiv
                     ,program,location,params
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -782,7 +706,6 @@ GLUEY_APICALL  GLint GLUEY_APIENTRY  glGetUniformLocation (GLuint program,const 
                     ,glGetUniformLocation
                     ,program,name
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -793,7 +716,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glGetVertexAttribfv (GLuint index,GLenum pna
                     ,glGetVertexAttribfv
                     ,index,pname,params
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -803,7 +725,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glGetVertexAttribiv (GLuint index,GLenum pna
                     ,glGetVertexAttribiv
                     ,index,pname,params
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -813,7 +734,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glGetVertexAttribPointerv (GLuint index,GLen
                     ,glGetVertexAttribPointerv
                     ,index,pname,pointer
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -823,7 +743,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glHint (GLenum target,GLenum mode)
                     ,glHint
                     ,target,mode
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -834,7 +753,6 @@ GLUEY_APICALL  GLboolean GLUEY_APIENTRY  glIsBuffer (GLuint buffer)
                     ,glIsBuffer
                     ,buffer
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -846,7 +764,6 @@ GLUEY_APICALL  GLboolean GLUEY_APIENTRY  glIsEnabled (GLenum cap)
                     ,glIsEnabled
                     ,cap
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -858,7 +775,6 @@ GLUEY_APICALL  GLboolean GLUEY_APIENTRY  glIsFramebuffer (GLuint framebuffer)
                     ,glIsFramebuffer
                     ,framebuffer
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -870,7 +786,6 @@ GLUEY_APICALL  GLboolean GLUEY_APIENTRY  glIsProgram (GLuint program)
                     ,glIsProgram
                     ,program
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -882,7 +797,6 @@ GLUEY_APICALL  GLboolean GLUEY_APIENTRY  glIsRenderbuffer (GLuint renderbuffer)
                     ,glIsRenderbuffer
                     ,renderbuffer
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -894,7 +808,6 @@ GLUEY_APICALL  GLboolean GLUEY_APIENTRY  glIsShader (GLuint shader)
                     ,glIsShader
                     ,shader
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -906,7 +819,6 @@ GLUEY_APICALL  GLboolean GLUEY_APIENTRY  glIsTexture (GLuint texture)
                     ,glIsTexture
                     ,texture
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -917,7 +829,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glLineWidth (GLfloat width)
                     ,glLineWidth
                     ,width
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -927,7 +838,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glLinkProgram (GLuint program)
                     ,glLinkProgram
                     ,program
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -937,7 +847,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glPixelStorei (GLenum pname,GLint param)
                     ,glPixelStorei
                     ,pname,param
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -947,7 +856,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glPolygonOffset (GLfloat factor,GLfloat unit
                     ,glPolygonOffset
                     ,factor,units
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -957,7 +865,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glReadPixels (GLint x,GLint y,GLsizei width,
                     ,glReadPixels
                     ,x,y,width,height,format,type,pixels
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -966,7 +873,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glReleaseShaderCompiler ()
     hook_invoke_from(g_libCtx, SPU_TYPE_SHIM
                     ,glReleaseShaderCompiler
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -976,7 +882,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glRenderbufferStorage (GLenum target,GLenum 
                     ,glRenderbufferStorage
                     ,target,internalformat,width,height
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -986,7 +891,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glSampleCoverage (GLfloat value,GLboolean in
                     ,glSampleCoverage
                     ,value,invert
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -996,7 +900,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glScissor (GLint x,GLint y,GLsizei width,GLs
                     ,glScissor
                     ,x,y,width,height
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1006,7 +909,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glShaderBinary (GLsizei count,const GLuint *
                     ,glShaderBinary
                     ,count,shaders,binaryformat,binary,length
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1016,7 +918,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glShaderSource (GLuint shader,GLsizei count,
                     ,glShaderSource
                     ,shader,count,string,length
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1026,7 +927,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glStencilFunc (GLenum func,GLint ref,GLuint 
                     ,glStencilFunc
                     ,func,ref,mask
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1036,7 +936,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glStencilFuncSeparate (GLenum face,GLenum fu
                     ,glStencilFuncSeparate
                     ,face,func,ref,mask
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1046,7 +945,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glStencilMask (GLuint mask)
                     ,glStencilMask
                     ,mask
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1056,7 +954,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glStencilMaskSeparate (GLenum face,GLuint ma
                     ,glStencilMaskSeparate
                     ,face,mask
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1066,7 +963,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glStencilOp (GLenum fail,GLenum zfail,GLenum
                     ,glStencilOp
                     ,fail,zfail,zpass
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1076,7 +972,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glStencilOpSeparate (GLenum face,GLenum sfai
                     ,glStencilOpSeparate
                     ,face,sfail,dpfail,dppass
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1086,7 +981,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glTexImage2D (GLenum target,GLint level,GLin
                     ,glTexImage2D
                     ,target,level,internalformat,width,height,border,format,type,pixels
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1096,7 +990,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glTexParameterf (GLenum target,GLenum pname,
                     ,glTexParameterf
                     ,target,pname,param
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1106,7 +999,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glTexParameterfv (GLenum target,GLenum pname
                     ,glTexParameterfv
                     ,target,pname,params
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1116,7 +1008,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glTexParameteri (GLenum target,GLenum pname,
                     ,glTexParameteri
                     ,target,pname,param
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1126,7 +1017,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glTexParameteriv (GLenum target,GLenum pname
                     ,glTexParameteriv
                     ,target,pname,params
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1136,7 +1026,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glTexSubImage2D (GLenum target,GLint level,G
                     ,glTexSubImage2D
                     ,target,level,xoffset,yoffset,width,height,format,type,pixels
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1146,7 +1035,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glUniform1f (GLint location,GLfloat v0)
                     ,glUniform1f
                     ,location,v0
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1156,7 +1044,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glUniform1fv (GLint location,GLsizei count,c
                     ,glUniform1fv
                     ,location,count,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1166,7 +1053,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glUniform1i (GLint location,GLint v0)
                     ,glUniform1i
                     ,location,v0
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1176,7 +1062,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glUniform1iv (GLint location,GLsizei count,c
                     ,glUniform1iv
                     ,location,count,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1186,7 +1071,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glUniform2f (GLint location,GLfloat v0,GLflo
                     ,glUniform2f
                     ,location,v0,v1
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1196,7 +1080,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glUniform2fv (GLint location,GLsizei count,c
                     ,glUniform2fv
                     ,location,count,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1206,7 +1089,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glUniform2i (GLint location,GLint v0,GLint v
                     ,glUniform2i
                     ,location,v0,v1
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1216,7 +1098,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glUniform2iv (GLint location,GLsizei count,c
                     ,glUniform2iv
                     ,location,count,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1226,7 +1107,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glUniform3f (GLint location,GLfloat v0,GLflo
                     ,glUniform3f
                     ,location,v0,v1,v2
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1236,7 +1116,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glUniform3fv (GLint location,GLsizei count,c
                     ,glUniform3fv
                     ,location,count,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1246,7 +1125,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glUniform3i (GLint location,GLint v0,GLint v
                     ,glUniform3i
                     ,location,v0,v1,v2
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1256,7 +1134,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glUniform3iv (GLint location,GLsizei count,c
                     ,glUniform3iv
                     ,location,count,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1266,7 +1143,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glUniform4f (GLint location,GLfloat v0,GLflo
                     ,glUniform4f
                     ,location,v0,v1,v2,v3
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1276,7 +1152,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glUniform4fv (GLint location,GLsizei count,c
                     ,glUniform4fv
                     ,location,count,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1286,7 +1161,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glUniform4i (GLint location,GLint v0,GLint v
                     ,glUniform4i
                     ,location,v0,v1,v2,v3
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1296,7 +1170,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glUniform4iv (GLint location,GLsizei count,c
                     ,glUniform4iv
                     ,location,count,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1306,7 +1179,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glUniformMatrix2fv (GLint location,GLsizei c
                     ,glUniformMatrix2fv
                     ,location,count,transpose,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1316,7 +1188,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glUniformMatrix3fv (GLint location,GLsizei c
                     ,glUniformMatrix3fv
                     ,location,count,transpose,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1326,7 +1197,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glUniformMatrix4fv (GLint location,GLsizei c
                     ,glUniformMatrix4fv
                     ,location,count,transpose,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1336,7 +1206,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glUseProgram (GLuint program)
                     ,glUseProgram
                     ,program
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1346,7 +1215,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glValidateProgram (GLuint program)
                     ,glValidateProgram
                     ,program
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1356,7 +1224,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glVertexAttrib1f (GLuint index,GLfloat x)
                     ,glVertexAttrib1f
                     ,index,x
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1366,7 +1233,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glVertexAttrib1fv (GLuint index,const GLfloa
                     ,glVertexAttrib1fv
                     ,index,v
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1376,7 +1242,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glVertexAttrib2f (GLuint index,GLfloat x,GLf
                     ,glVertexAttrib2f
                     ,index,x,y
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1386,7 +1251,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glVertexAttrib2fv (GLuint index,const GLfloa
                     ,glVertexAttrib2fv
                     ,index,v
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1396,7 +1260,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glVertexAttrib3f (GLuint index,GLfloat x,GLf
                     ,glVertexAttrib3f
                     ,index,x,y,z
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1406,7 +1269,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glVertexAttrib3fv (GLuint index,const GLfloa
                     ,glVertexAttrib3fv
                     ,index,v
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1416,7 +1278,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glVertexAttrib4f (GLuint index,GLfloat x,GLf
                     ,glVertexAttrib4f
                     ,index,x,y,z,w
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1426,7 +1287,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glVertexAttrib4fv (GLuint index,const GLfloa
                     ,glVertexAttrib4fv
                     ,index,v
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1436,7 +1296,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glVertexAttribPointer (GLuint index,GLint si
                     ,glVertexAttribPointer
                     ,index,size,type,normalized,stride,pointer
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -1446,6 +1305,5 @@ GLUEY_APICALL  void GLUEY_APIENTRY  glViewport (GLint x,GLint y,GLsizei width,GL
                     ,glViewport
                     ,x,y,width,height
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 

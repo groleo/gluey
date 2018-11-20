@@ -13,7 +13,6 @@ GLUEY_APICALL  EGLSyncKHR GLUEY_APIENTRY  eglCreateSync64KHR (EGLDisplay dpy,EGL
                     ,eglCreateSync64KHR
                     ,dpy,type,attrib_list
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -25,7 +24,6 @@ GLUEY_APICALL  EGLint GLUEY_APIENTRY  eglDebugMessageControlKHR (EGLDEBUGPROCKHR
                     ,eglDebugMessageControlKHR
                     ,callback,attrib_list
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -37,7 +35,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglQueryDebugKHR (EGLint attribute,EGL
                     ,eglQueryDebugKHR
                     ,attribute,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -49,7 +46,6 @@ GLUEY_APICALL  EGLint GLUEY_APIENTRY  eglLabelObjectKHR (EGLDisplay display,EGLe
                     ,eglLabelObjectKHR
                     ,display,objectType,object,label
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -61,7 +57,6 @@ GLUEY_APICALL  EGLSyncKHR GLUEY_APIENTRY  eglCreateSyncKHR (EGLDisplay dpy,EGLen
                     ,eglCreateSyncKHR
                     ,dpy,type,attrib_list
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -73,7 +68,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglDestroySyncKHR (EGLDisplay dpy,EGLS
                     ,eglDestroySyncKHR
                     ,dpy,sync
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -85,7 +79,6 @@ GLUEY_APICALL  EGLint GLUEY_APIENTRY  eglClientWaitSyncKHR (EGLDisplay dpy,EGLSy
                     ,eglClientWaitSyncKHR
                     ,dpy,sync,flags,timeout
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -97,7 +90,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglGetSyncAttribKHR (EGLDisplay dpy,EG
                     ,eglGetSyncAttribKHR
                     ,dpy,sync,attribute,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -109,7 +101,6 @@ GLUEY_APICALL  EGLImageKHR GLUEY_APIENTRY  eglCreateImageKHR (EGLDisplay dpy,EGL
                     ,eglCreateImageKHR
                     ,dpy,ctx,target,buffer,attrib_list
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -121,7 +112,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglDestroyImageKHR (EGLDisplay dpy,EGL
                     ,eglDestroyImageKHR
                     ,dpy,image
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -133,7 +123,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglLockSurfaceKHR (EGLDisplay dpy,EGLS
                     ,eglLockSurfaceKHR
                     ,dpy,surface,attrib_list
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -145,7 +134,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglUnlockSurfaceKHR (EGLDisplay dpy,EG
                     ,eglUnlockSurfaceKHR
                     ,dpy,surface
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -157,7 +145,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglQuerySurface64KHR (EGLDisplay dpy,E
                     ,eglQuerySurface64KHR
                     ,dpy,surface,attribute,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -169,7 +156,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglSetDamageRegionKHR (EGLDisplay dpy,
                     ,eglSetDamageRegionKHR
                     ,dpy,surface,rects,n_rects
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -181,7 +167,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglSignalSyncKHR (EGLDisplay dpy,EGLSy
                     ,eglSignalSyncKHR
                     ,dpy,sync,mode
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -193,7 +178,6 @@ GLUEY_APICALL  EGLStreamKHR GLUEY_APIENTRY  eglCreateStreamKHR (EGLDisplay dpy,c
                     ,eglCreateStreamKHR
                     ,dpy,attrib_list
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -205,7 +189,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglDestroyStreamKHR (EGLDisplay dpy,EG
                     ,eglDestroyStreamKHR
                     ,dpy,stream
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -217,7 +200,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglStreamAttribKHR (EGLDisplay dpy,EGL
                     ,eglStreamAttribKHR
                     ,dpy,stream,attribute,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -229,7 +211,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglQueryStreamKHR (EGLDisplay dpy,EGLS
                     ,eglQueryStreamKHR
                     ,dpy,stream,attribute,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -241,7 +222,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglQueryStreamu64KHR (EGLDisplay dpy,E
                     ,eglQueryStreamu64KHR
                     ,dpy,stream,attribute,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -253,7 +233,6 @@ GLUEY_APICALL  EGLStreamKHR GLUEY_APIENTRY  eglCreateStreamAttribKHR (EGLDisplay
                     ,eglCreateStreamAttribKHR
                     ,dpy,attrib_list
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -265,7 +244,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglSetStreamAttribKHR (EGLDisplay dpy,
                     ,eglSetStreamAttribKHR
                     ,dpy,stream,attribute,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -277,7 +255,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglQueryStreamAttribKHR (EGLDisplay dp
                     ,eglQueryStreamAttribKHR
                     ,dpy,stream,attribute,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -289,7 +266,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglStreamConsumerAcquireAttribKHR (EGL
                     ,eglStreamConsumerAcquireAttribKHR
                     ,dpy,stream,attrib_list
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -301,7 +277,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglStreamConsumerReleaseAttribKHR (EGL
                     ,eglStreamConsumerReleaseAttribKHR
                     ,dpy,stream,attrib_list
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -313,7 +288,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglStreamConsumerGLTextureExternalKHR 
                     ,eglStreamConsumerGLTextureExternalKHR
                     ,dpy,stream
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -325,7 +299,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglStreamConsumerAcquireKHR (EGLDispla
                     ,eglStreamConsumerAcquireKHR
                     ,dpy,stream
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -337,7 +310,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglStreamConsumerReleaseKHR (EGLDispla
                     ,eglStreamConsumerReleaseKHR
                     ,dpy,stream
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -349,7 +321,6 @@ GLUEY_APICALL  EGLNativeFileDescriptorKHR GLUEY_APIENTRY  eglGetStreamFileDescri
                     ,eglGetStreamFileDescriptorKHR
                     ,dpy,stream
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -361,7 +332,6 @@ GLUEY_APICALL  EGLStreamKHR GLUEY_APIENTRY  eglCreateStreamFromFileDescriptorKHR
                     ,eglCreateStreamFromFileDescriptorKHR
                     ,dpy,file_descriptor
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -373,7 +343,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglQueryStreamTimeKHR (EGLDisplay dpy,
                     ,eglQueryStreamTimeKHR
                     ,dpy,stream,attribute,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -385,7 +354,6 @@ GLUEY_APICALL  EGLSurface GLUEY_APIENTRY  eglCreateStreamProducerSurfaceKHR (EGL
                     ,eglCreateStreamProducerSurfaceKHR
                     ,dpy,config,stream,attrib_list
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -397,7 +365,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglSwapBuffersWithDamageKHR (EGLDispla
                     ,eglSwapBuffersWithDamageKHR
                     ,dpy,surface,rects,n_rects
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -409,7 +376,6 @@ GLUEY_APICALL  EGLint GLUEY_APIENTRY  eglWaitSyncKHR (EGLDisplay dpy,EGLSyncKHR 
                     ,eglWaitSyncKHR
                     ,dpy,sync,flags
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -420,7 +386,6 @@ GLUEY_APICALL  void GLUEY_APIENTRY  eglSetBlobCacheFuncsANDROID (EGLDisplay dpy,
                     ,eglSetBlobCacheFuncsANDROID
                     ,dpy,set,get
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
 }
 
 
@@ -431,7 +396,6 @@ GLUEY_APICALL  EGLClientBuffer GLUEY_APIENTRY  eglCreateNativeClientBufferANDROI
                     ,eglCreateNativeClientBufferANDROID
                     ,attrib_list
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -443,7 +407,6 @@ GLUEY_APICALL  EGLint GLUEY_APIENTRY  eglDupNativeFenceFDANDROID (EGLDisplay dpy
                     ,eglDupNativeFenceFDANDROID
                     ,dpy,sync
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -455,7 +418,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglPresentationTimeANDROID (EGLDisplay
                     ,eglPresentationTimeANDROID
                     ,dpy,surface,time
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -467,7 +429,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglQuerySurfacePointerANGLE (EGLDispla
                     ,eglQuerySurfacePointerANGLE
                     ,dpy,surface,attribute,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -479,7 +440,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglCompositorSetContextListEXT (const 
                     ,eglCompositorSetContextListEXT
                     ,external_ref_ids,num_entries
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -491,7 +451,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglCompositorSetContextAttributesEXT (
                     ,eglCompositorSetContextAttributesEXT
                     ,external_ref_id,context_attributes,num_entries
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -503,7 +462,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglCompositorSetWindowListEXT (EGLint 
                     ,eglCompositorSetWindowListEXT
                     ,external_ref_id,external_win_ids,num_entries
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -515,7 +473,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglCompositorSetWindowAttributesEXT (E
                     ,eglCompositorSetWindowAttributesEXT
                     ,external_win_id,window_attributes,num_entries
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -527,7 +484,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglCompositorBindTexWindowEXT (EGLint 
                     ,eglCompositorBindTexWindowEXT
                     ,external_win_id
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -539,7 +495,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglCompositorSetSizeEXT (EGLint extern
                     ,eglCompositorSetSizeEXT
                     ,external_win_id,width,height
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -551,7 +506,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglCompositorSwapPolicyEXT (EGLint ext
                     ,eglCompositorSwapPolicyEXT
                     ,external_win_id,policy
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -563,7 +517,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglQueryDeviceAttribEXT (EGLDeviceEXT 
                     ,eglQueryDeviceAttribEXT
                     ,device,attribute,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -575,7 +528,6 @@ GLUEY_APICALL  const char * GLUEY_APIENTRY  eglQueryDeviceStringEXT (EGLDeviceEX
                     ,eglQueryDeviceStringEXT
                     ,device,name
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -587,7 +539,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglQueryDevicesEXT (EGLint max_devices
                     ,eglQueryDevicesEXT
                     ,max_devices,devices,num_devices
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -599,7 +550,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglQueryDisplayAttribEXT (EGLDisplay d
                     ,eglQueryDisplayAttribEXT
                     ,dpy,attribute,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -611,7 +561,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglQueryDmaBufFormatsEXT (EGLDisplay d
                     ,eglQueryDmaBufFormatsEXT
                     ,dpy,max_formats,*formats,*num_formats
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -623,7 +572,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglQueryDmaBufModifiersEXT (EGLDisplay
                     ,eglQueryDmaBufModifiersEXT
                     ,dpy,format,max_modifiers,*modifiers,*external_only,*num_modifiers
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -635,7 +583,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglGetOutputLayersEXT (EGLDisplay dpy,
                     ,eglGetOutputLayersEXT
                     ,dpy,attrib_list,layers,max_layers,num_layers
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -647,7 +594,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglGetOutputPortsEXT (EGLDisplay dpy,c
                     ,eglGetOutputPortsEXT
                     ,dpy,attrib_list,ports,max_ports,num_ports
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -659,7 +605,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglOutputLayerAttribEXT (EGLDisplay dp
                     ,eglOutputLayerAttribEXT
                     ,dpy,layer,attribute,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -671,7 +616,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglQueryOutputLayerAttribEXT (EGLDispl
                     ,eglQueryOutputLayerAttribEXT
                     ,dpy,layer,attribute,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -683,7 +627,6 @@ GLUEY_APICALL  const char * GLUEY_APIENTRY  eglQueryOutputLayerStringEXT (EGLDis
                     ,eglQueryOutputLayerStringEXT
                     ,dpy,layer,name
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -695,7 +638,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglOutputPortAttribEXT (EGLDisplay dpy
                     ,eglOutputPortAttribEXT
                     ,dpy,port,attribute,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -707,7 +649,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglQueryOutputPortAttribEXT (EGLDispla
                     ,eglQueryOutputPortAttribEXT
                     ,dpy,port,attribute,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -719,7 +660,6 @@ GLUEY_APICALL  const char * GLUEY_APIENTRY  eglQueryOutputPortStringEXT (EGLDisp
                     ,eglQueryOutputPortStringEXT
                     ,dpy,port,name
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -731,7 +671,6 @@ GLUEY_APICALL  EGLDisplay GLUEY_APIENTRY  eglGetPlatformDisplayEXT (EGLenum plat
                     ,eglGetPlatformDisplayEXT
                     ,platform,native_display,attrib_list
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -743,7 +682,6 @@ GLUEY_APICALL  EGLSurface GLUEY_APIENTRY  eglCreatePlatformWindowSurfaceEXT (EGL
                     ,eglCreatePlatformWindowSurfaceEXT
                     ,dpy,config,native_window,attrib_list
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -755,7 +693,6 @@ GLUEY_APICALL  EGLSurface GLUEY_APIENTRY  eglCreatePlatformPixmapSurfaceEXT (EGL
                     ,eglCreatePlatformPixmapSurfaceEXT
                     ,dpy,config,native_pixmap,attrib_list
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -767,7 +704,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglStreamConsumerOutputEXT (EGLDisplay
                     ,eglStreamConsumerOutputEXT
                     ,dpy,stream,layer
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -779,7 +715,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglSwapBuffersWithDamageEXT (EGLDispla
                     ,eglSwapBuffersWithDamageEXT
                     ,dpy,surface,rects,n_rects
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -791,7 +726,6 @@ GLUEY_APICALL  EGLSurface GLUEY_APIENTRY  eglCreatePixmapSurfaceHI (EGLDisplay d
                     ,eglCreatePixmapSurfaceHI
                     ,dpy,config,pixmap
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -803,7 +737,6 @@ GLUEY_APICALL  EGLImageKHR GLUEY_APIENTRY  eglCreateDRMImageMESA (EGLDisplay dpy
                     ,eglCreateDRMImageMESA
                     ,dpy,attrib_list
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -815,7 +748,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglExportDRMImageMESA (EGLDisplay dpy,
                     ,eglExportDRMImageMESA
                     ,dpy,image,name,handle,stride
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -827,7 +759,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglExportDMABUFImageQueryMESA (EGLDisp
                     ,eglExportDMABUFImageQueryMESA
                     ,dpy,image,fourcc,num_planes,modifiers
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -839,7 +770,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglExportDMABUFImageMESA (EGLDisplay d
                     ,eglExportDMABUFImageMESA
                     ,dpy,image,fds,strides,offsets
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -851,7 +781,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglSwapBuffersRegionNOK (EGLDisplay dp
                     ,eglSwapBuffersRegionNOK
                     ,dpy,surface,numRects,rects
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -863,7 +792,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglSwapBuffersRegion2NOK (EGLDisplay d
                     ,eglSwapBuffersRegion2NOK
                     ,dpy,surface,numRects,rects
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -875,7 +803,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglQueryNativeDisplayNV (EGLDisplay dp
                     ,eglQueryNativeDisplayNV
                     ,dpy,display_id
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -887,7 +814,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglQueryNativeWindowNV (EGLDisplay dpy
                     ,eglQueryNativeWindowNV
                     ,dpy,surf,window
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -899,7 +825,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglQueryNativePixmapNV (EGLDisplay dpy
                     ,eglQueryNativePixmapNV
                     ,dpy,surf,pixmap
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -911,7 +836,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglPostSubBufferNV (EGLDisplay dpy,EGL
                     ,eglPostSubBufferNV
                     ,dpy,surface,x,y,width,height
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -923,7 +847,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglStreamConsumerGLTextureExternalAttr
                     ,eglStreamConsumerGLTextureExternalAttribsNV
                     ,dpy,stream,*attrib_list
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -935,7 +858,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglQueryDisplayAttribNV (EGLDisplay dp
                     ,eglQueryDisplayAttribNV
                     ,dpy,attribute,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -947,7 +869,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglSetStreamMetadataNV (EGLDisplay dpy
                     ,eglSetStreamMetadataNV
                     ,dpy,stream,n,offset,size,data
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -959,7 +880,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglQueryStreamMetadataNV (EGLDisplay d
                     ,eglQueryStreamMetadataNV
                     ,dpy,stream,name,n,offset,size,data
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -971,7 +891,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglResetStreamNV (EGLDisplay dpy,EGLSt
                     ,eglResetStreamNV
                     ,dpy,stream
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -983,7 +902,6 @@ GLUEY_APICALL  EGLSyncKHR GLUEY_APIENTRY  eglCreateStreamSyncNV (EGLDisplay dpy,
                     ,eglCreateStreamSyncNV
                     ,dpy,stream,type,attrib_list
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -995,7 +913,6 @@ GLUEY_APICALL  EGLSyncNV GLUEY_APIENTRY  eglCreateFenceSyncNV (EGLDisplay dpy,EG
                     ,eglCreateFenceSyncNV
                     ,dpy,condition,attrib_list
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -1007,7 +924,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglDestroySyncNV (EGLSyncNV sync)
                     ,eglDestroySyncNV
                     ,sync
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -1019,7 +935,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglFenceNV (EGLSyncNV sync)
                     ,eglFenceNV
                     ,sync
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -1031,7 +946,6 @@ GLUEY_APICALL  EGLint GLUEY_APIENTRY  eglClientWaitSyncNV (EGLSyncNV sync,EGLint
                     ,eglClientWaitSyncNV
                     ,sync,flags,timeout
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -1043,7 +957,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglSignalSyncNV (EGLSyncNV sync,EGLenu
                     ,eglSignalSyncNV
                     ,sync,mode
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -1055,7 +968,6 @@ GLUEY_APICALL  EGLBoolean GLUEY_APIENTRY  eglGetSyncAttribNV (EGLSyncNV sync,EGL
                     ,eglGetSyncAttribNV
                     ,sync,attribute,value
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -1066,7 +978,6 @@ GLUEY_APICALL  EGLuint64NV GLUEY_APIENTRY  eglGetSystemTimeFrequencyNV ()
     hook_invoke_from(g_libCtx, SPU_TYPE_SHIM
                     ,eglGetSystemTimeFrequencyNV
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
@@ -1077,7 +988,6 @@ GLUEY_APICALL  EGLuint64NV GLUEY_APIENTRY  eglGetSystemTimeNV ()
     hook_invoke_from(g_libCtx, SPU_TYPE_SHIM
                     ,eglGetSystemTimeNV
                     );
-    fprintf(stderr, "%s Done.\n", __func__);
     return retVal;
 }
 
