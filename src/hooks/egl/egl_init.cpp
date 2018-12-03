@@ -52,7 +52,7 @@ struct ZZContext : ApiContext<HookContext*, EGL_FN_INDEX_MAX>
 {
 };
 static ZZContext* g_libCtx;
-};
+}; // namespace Egl
 
 using namespace Egl;
 #include "gen/EGL/egl.h"
@@ -62,18 +62,22 @@ extern "C" {
 #include "gen/EGL/egl-shim.h"
 };
 
+
 void* getPfn(const char* sym)
 {
     PFNeglGetProcAddressPROC gpa = (PFNeglGetProcAddressPROC)hook_get_orig(
         Egl::g_libCtx, eglGetProcAddress_INDEX);
     return (void*)gpa(sym);
 }
+
+
 XYZContext getVersion()
 {
     EglShimContext* c
         = g_libCtx->h->GetArg<EglShimContext*>(SPU_TYPE_SHIM);
     return c->xyz;
 }
+
 
 static EGLContext eglCreateContext_SHIM(Egl::ZZContext* libCtx,
                                         EGLDisplay display,
@@ -108,6 +112,7 @@ static EGLContext eglCreateContext_SHIM(Egl::ZZContext* libCtx,
     fprintf(stderr, "%s counters setup Done\n", __func__);
     return rv;
 }
+
 
 static EGLBoolean eglSwapBuffers_SHIM(ZZContext* libCtx, EGLDisplay dpy,
                                       EGLSurface surface)
